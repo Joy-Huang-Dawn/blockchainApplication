@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/index/7.jpg) center 0px;
+    background-size:cover;
+    background-position:center 0;
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    -webkit-background-size: cover;  
+    -o-background-size: cover;  
+    -moz-background-size: cover;  
+    -ms-background-size: cover 
+}
+
+.login-box {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	padding:30px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px  25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.login-box h2{
+    margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.login-box .login-field{
+    position: relative;
+}
+
+.login-box .login-field  label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.login-box .login-field input:focus ~ label,
+.login-box .login-field input:valid ~ label{
+	top: 0;
+	left: 0; 
+	color: rgb(191, 235, 235);
+	font-size: 12px;
+}
+.login-box button{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.login-text{
+    margin:10px;
+    background: rgba(255,255,255,5);
+    border-radius: 6px;
+    font-size: 20px;
+    margin-left:0px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.login-btn:hover {
+    transform:scale(0.96);
+}
+
+.login-div a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.login-div a:hover{
+    background: rgba(0,0,0,.3);
+}
+
+.login-lost {
+    text-decoration:none;
+    margin-left:160px;
+    
+}
+
