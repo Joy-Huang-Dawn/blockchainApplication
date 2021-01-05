@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="web3.min.js"></script>
+    <link rel="stylesheet" href="app.css" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>区块链学院 链车
+    </title>
+</head>
+
+<body>
+<h2>江西软件职业技术大学 区块链学院</h2>
+    ERC720 Address: <span class="ErcAddress"></span><button id="Btn_getErc721">getErc721</button>
+    <button class="enableEthereumButton">Enable Ethereum</button>
+    <h5>Account: <span class="showAccount"></span></h5>
+    <hr />
+    添加二手车:<img id="load_ci_img" src="./loading-upload.gif" hidden /><span class="txt_CreatItem"></span>
+    <hr />
+    车辆批号CPC:<input id="prodid" value="" /><button id="Btn_CreatItem">CreatItem</button>
+    <hr />
+    二手车车辆信息<span id="MyBalance"></span>
+    <div id="box"></div>
+    <hr />
+    <h3>车辆详细信息查询</h3>
+
+    <div class="form-group">
+        CPC
+        <br>
+        <input type="number" id="upc" name="upc" value=1><br>
+        <br>
+        <div class=button-div>
+            <button class="btn-fetchOne" id="btn-fetchOne" type="button" data-id="9">查看</button>
+
+        </div>
+    </div>
+    <hr>
+    <h3>用户信息查询</h3>
+
+    <div class="form-group">
+        Address
+        <br>
+        <input type="number" id="upc" name="upc" value=1><br>
+        <br>
+        <div class=button-div>
+            <button class="btn-fetchOne" id="btn-fetchOne" type="button" data-id="9">c查询</button>
+
+        </div>
+    </div>
+    <hr>
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
