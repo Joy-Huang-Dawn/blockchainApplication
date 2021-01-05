@@ -54,11 +54,11 @@
 本系统主要围绕二手车的线上交易管理及售后管理，通过功能分析建立一套技术先进、性能可靠、功能齐全的系统，系统内的用户在各自权限内进行各自的工作，同时保证各模块之间的信息互通以及业务联动，避免出现信息孤岛。客户端采用手机端应用的方式，具有稳定性、良好的可扩展性和严格的权限控制，保障系统安全。<br>
 ## 系统部分功能设计<br>
 <br>
-![image](https://github.com/Joy-Huang-Dawn/blockchainApplication/blob/master/blockchainApplication/img/%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9D%97.png)<br>
+- ![image](https://github.com/Joy-Huang-Dawn/blockchainApplication/blob/master/blockchainApplication/img/%E7%B3%BB%E7%BB%9F%E6%A8%A1%E5%9D%97.png)<br>
 - 买卖交易<br>
-![image](https://github.com/Joy-Huang-Dawn/blockchainApplication/blob/master/blockchainApplication/img/%E4%B9%B0%E8%BD%A6%E6%B5%81%E7%A8%8B.png)<br>
+- ![image](https://github.com/Joy-Huang-Dawn/blockchainApplication/blob/master/blockchainApplication/img/%E4%B9%B0%E8%BD%A6%E6%B5%81%E7%A8%8B.png)<br>
 <br>
-![image](https://github.com/Joy-Huang-Dawn/blockchainApplication/blob/master/blockchainApplication/img/%E5%8D%96%E8%BD%A6%E6%B5%81%E7%A8%8B.png)<br>
+- ![image](https://github.com/Joy-Huang-Dawn/blockchainApplication/blob/master/blockchainApplication/img/%E5%8D%96%E8%BD%A6%E6%B5%81%E7%A8%8B.png)<br>
 卖车人注册登录进入平台后，可以在平台上发布自己需要出售的车辆信息。买车人可以通过平台搜索、本地搜车或根据所需车辆属性进行查找。买方若是想查看心仪车辆信息，可电话或平台留言方式询问卖车人。买卖方商谈好后，卖方出示车辆相关证件：身份证、驾驶证、车辆登记证书、二手车专业鉴定评估书、车辆保险单、审车环保标志、汽车缴/完税证明、购车发票、车辆保养记录。其中，卖方在平台发布车辆信息后，若车辆没有经过二手车专业鉴定评估，则需要经过二手车专业鉴定评估机构鉴定评估车辆状况。买方与卖方商谈后可以预约看车，检查车况，若是买卖双方有一致的意向，则签订交易合同，支付订金。买卖方可以在平台上办理车辆过户转籍手续，办理时买卖双方需要使用账号私钥认证是否为本人操作后，方可进行办理。如果购买的二手车需要办理车辆购置税免税手续可以在平台上申请报缴税或免税手续。买方购买了营运性的二手车需要凭《机动车行驶证》、《机动车登记证书》在交通运管部门办理《道路交通运输许可证》的变更；凭借《机动车行驶证》、《机动车登记证书》《保险单》正本到保险公司办理车辆保险投保人的变更手续。完成以上过程买卖双方交车。<br>
 - 产品溯源查询<br>
 用户可以通过二手车车辆批号进行查询，用户可以清楚的知道交易的对象、时间、金额等信息，若用户在购车后遇到问题需要联系卖方即可通过交易记录查询到卖方用户地址，交易信息和记录，以此作为凭证。<br>
